@@ -28,15 +28,14 @@ z = sampler.generate_z() # generates iid normal latent variable of 8 dimensions
 m = sampler.generate(z) # generates a sample image from latent variables
 sampler.show_image(m) # displays the image from the prompt
 ```
-<br/>
-<a href="url"><img src="https://cdn.rawgit.com/hardmaru/diff-vae-tensorflow/master/img/a.png" align="left" width="320" ></a><br/>
+<img src="https://cdn.rawgit.com/hardmaru/diff-vae-tensorflow/master/img/a.png" align="left" width="320" />
 
 Alternatively, we can generate and display the image in one line:
 
 ```python
 sampler.show_image_from_z(sampler.generate_z()) # displays the image from the prompt
 ```
-<br/><a href="url"><img src="https://cdn.rawgit.com/hardmaru/diff-vae-tensorflow/master/img/b.png" align="left" width="320" ></a><br/>
+<br/><a href="url"><img src="https://cdn.rawgit.com/hardmaru/diff-vae-tensorflow/master/img/b.png" align="left" width="320" /></a><br/>
 
 We can draw a random image from the MNIST database, display it, and also display the autoencoded reconstruction:
 
