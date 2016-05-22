@@ -28,7 +28,8 @@ z = sampler.generate_z() # generates iid normal latent variable of 8 dimensions
 m = sampler.generate(z) # generates a sample image from latent variables
 sampler.show_image(m) # displays the image from the prompt
 ```
-<img src="https://cdn.rawgit.com/hardmaru/diff-vae-tensorflow/master/img/a.png" align="left" width="320" />
+<img src="https://cdn.rawgit.com/hardmaru/diff-vae-tensorflow/master/img/a.png" align="left" width="320" ></img>
+<p></p>
 
 Alternatively, we can generate and display the image in one line:
 
