@@ -62,8 +62,8 @@ recover_m = sampler.integrate_image(diff_m)
 sampler.show_image(recover_m) # same as previous image
 ```
 
-![2](https://cdn.rawgit.com/hardmaru/diff-vae-tensorflow/master/img/0.png)
-![3](https://cdn.rawgit.com/hardmaru/diff-vae-tensorflow/master/img/0.png)
+![2](https://cdn.rawgit.com/hardmaru/diff-vae-tensorflow/master/img/2.png)
+![3](https://cdn.rawgit.com/hardmaru/diff-vae-tensorflow/master/img/3.png)
 
 # License
 
