@@ -1,6 +1,6 @@
 # diff-vae-tensorflow
 
-![1](https://cdn.rawgit.com/hardmaru/diff-vae-tensorflow/master/img/1.png)
+<a href="url"><img src="https://cdn.rawgit.com/hardmaru/diff-vae-tensorflow/master/img/1.png" align="left" width="320" ></a>
 
 [Variational Autoencoder](https://arxiv.org/abs/1312.6114) implementation in tensorflow based off another [example](https://jmetzen.github.io/2015-11-27/vae.html).  In addition, `Sampler` class to interactively work with results inside IPython.
 
@@ -28,14 +28,14 @@ z = sampler.generate_z() # generates iid normal latent variable of 8 dimensions
 m = sampler.generate(z) # generates a sample image from latent variables
 sampler.show_image(m) # displays the image from the prompt
 ```
-![a](https://cdn.rawgit.com/hardmaru/diff-vae-tensorflow/master/img/a.png)
+<a href="url"><img src="https://cdn.rawgit.com/hardmaru/diff-vae-tensorflow/master/img/a.png" align="left" width="320" ></a>
 
 Alternatively, we can generate and display the image in one line:
 
 ```python
 sampler.show_image_from_z(sampler.generate_z()) # displays the image from the prompt
 ```
-![b](https://cdn.rawgit.com/hardmaru/diff-vae-tensorflow/master/img/b.png)
+<a href="url"><img src="https://cdn.rawgit.com/hardmaru/diff-vae-tensorflow/master/img/b.png" align="left" width="320" ></a>
 
 We can draw a random image from the MNIST database, display it, and also display the autoencoded reconstruction:
 
@@ -45,7 +45,7 @@ sampler.show_image(m) # display the image
 z = sampler.encode(m) # encode m into latent variables z
 sampler.show_image_from_z(z) # show the autoencoded image
 ```
-![0](https://cdn.rawgit.com/hardmaru/diff-vae-tensorflow/master/img/0.png)
+<a href="url"><img src="https://cdn.rawgit.com/hardmaru/diff-vae-tensorflow/master/img/0.png" align="left" width="320" ></a>
 
 There are also some operations to perform image processing on images.  For example, if we want to differentiate the image, ie, find d(m)/dxdy:
 ```python
@@ -62,8 +62,8 @@ recover_m = sampler.integrate_image(diff_m)
 sampler.show_image(recover_m) # same as previous image
 ```
 
-![2](https://cdn.rawgit.com/hardmaru/diff-vae-tensorflow/master/img/2.png)
-![3](https://cdn.rawgit.com/hardmaru/diff-vae-tensorflow/master/img/3.png)
+<a href="url"><img src="https://cdn.rawgit.com/hardmaru/diff-vae-tensorflow/master/img/2.png" align="left" width="320" ></a>
+<a href="url"><img src="https://cdn.rawgit.com/hardmaru/diff-vae-tensorflow/master/img/3.png" align="left" width="320" ></a>
 
 # License
 
